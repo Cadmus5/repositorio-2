@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!--Las etiquetas de apertura y de cierre como necesitan dos etiquetas esepcificas para que funcionen correctamente en este <head> necesita de </header>-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
@@ -8,29 +8,29 @@
 <body>
     <nav>Este es un menu</nav> <!--La etiqueta <nav> sirve para poner un menú a la web-->
 
-    <section>
-        <header>
-            <h1>Cambios en el Gabinete Adrianzen</h1>
+    <section> <!--Es una division del contenido-->
+        <header> <!--Es aquel contenido que se pone al comienzo del ancestro mas cercano-->
+            <h1 class="texto">Cambios en el Gabinete Adrianzen</h1> <!--Las etiquetas con componentes opcionales no necesitan el atributo class="texto para poder funcionar correctamente"-->
         </header>
 
-        <main>
-            <article>
+        <main> <!--Es el contenido principal de la pagina y solo existe uno-->
+            <article> <!--Es una parte independiente del contenido que funcina por si sola-->
                 <header>
-                    <h2>Uno de los Seis Cambios</h2>
+                    <h2>Uno de los Seis Cambios</h2> <!--La <h2> es una etiqueta de tipo bloque ya que ocupa todo el espacio horizontal disponoble aunque no lo necesiten-->
                 </header>
-                <p>Walter Ortiz jura como ministro del interior en reemplazo de Victor Torres</p>
-                <img src="" alt="">
-                <footer>
+                <p>Walter Ortiz jura como ministro del interior en reemplazo de Victor Torres</p> <!--Las etiquetas <p> sirven para poder colocar textos-->
+                <img src="" alt=""> <!--La etiqueta self closing solo necesitan de una etiqueta para poder funcionar correctamente-->
+                <footer> <!--Es el pie de pagina de una seccion-->
                     <p>Redaccion EC</p>
                 </footer>
             </article>
 
             <article>
                 <header>
-                    <h2>En palacion de Gobierno</h2>
+                    <h2>En palacion de Gobierno</h2> <!--Los encabezados como <h2> sirven para mostrar titulos y subtitulos por jerarquia, existen 6 en total-->
                 </header>
                 <p>Angela Hernandez Cajo es la nueva ministra de la Mujer</p>
-                <img src="" alt="">
+                <img src="" alt=""> <!--Las etiquetas como <img> necesitan tener componentes obligatorios (atributos) para que funcionen correctamente como src=""-->
                 <footer>
                     <p>Redaccion EC</p>
                 </footer>
@@ -48,5 +48,6 @@
             </article>
         </main>
     </section>
+    <a href=""></a>
 </body>
 </html>
